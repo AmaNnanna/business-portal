@@ -1,0 +1,145 @@
+/*
+this is an auto reset that sets everything back to default
+*{
+    padding: 0;
+    margin: 0;
+}
+*/
+
+
+/*Global */
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    background-color: #f4f4f4; 
+    color: black;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+h1{
+    color: khaki;
+
+}
+table,th,td{
+    border: 1px solid white;
+}
+
+
+/*Header */
+#main-heading{
+    background-color: slategray;
+    position: fixed;
+    width: 100%;
+    min-height: 40px;
+    top: 0;
+    left: 0;
+    border-bottom: grey 3px solid;
+}
+
+#main-heading .logo img{
+    width: 120px;
+    float: left;
+    margin-top: -15px;
+}
+
+#main-heading .heading{
+    float: right;
+    padding-right: 50px;
+    color: aqua;
+}
+
+#main-heading .top-sidebar{
+    float: right;
+    margin-right: -300px;
+}
+
+#main-heading .top-sidebar ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#main-heading .top-sidebar li{
+    display: inline;
+    padding: 80px 20px 0px 20px;
+    float: left;
+    text-transform: capitalize;
+    font-size: 18px;
+    /*border-right: 1px solid turquoise;*/
+}
+
+/*To set the color of the current page on the page link.*/
+#main-heading .current a{
+    color: darkkhaki;
+}
+
+
+#main-heading .top-sidebar li:last-child{
+    border-right: none;
+}
+
+#main-heading .top-sidebar a{
+    display: block;
+    color: white;
+}
+
+
+/*Content */
+#display-body{
+    width: 98%;
+    margin: auto;
+}
+
+#display-body .body-sidebar{
+    width: 22%;
+    float: left;
+    background: grey;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+#display-body .body{
+    width: 78%;
+    float: right;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+#display-body .site-body{
+    width: 70%;
+    float: left;
+    background: white;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+#display-body .advertisements{
+    width: 30%;
+    float: right;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+#content clearfix{
+    overflow: auto;
+}
+
+
+/*Footer */
+#footer{
+    width: 100%;
+    bottom: 0;
+}
