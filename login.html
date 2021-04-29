@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="file:///C:/xampp/htdocs/html&cssfiles/businessportal/css/index.css" type="text/css">
+    <link rel="stylesheet" href="index.css" type="text/css">
     <title>Home Designers</title>
 </head>
 
 <body>
 
     <header id="main-heading">
-        <div> <span class="logo"> <img src="file:///C:/xampp/htdocs/html&cssfiles/businessportal/images/logo.png"
+        <div> <span class="logo"> <img src="images/logo.png"
                     alt="home designers"></span>
             <h3> <span class="heading">WE DECORATE YOUR HOME </span></h3>
         </div>
@@ -31,22 +31,21 @@
 
     <section>
         <p>
-            <form action="">
+            <form action="" class="form">
                 <fieldset>
-                    <legend>User Login</legend>
-                    <p>username:
-                        <input type="text" name="username" required="required">
+                    <legend class="legend"><h1>User Login</h1></legend>
+
+                    <input type="text" name="username" required="required"><br />
+
+                    <input type="password" name="password" required="required"><br />
+
+                    <input type="radio" name="gender" value="male" />male
+                    <input type="radio" name="gender" value="female" />female
+
+                    <p>What type of building do you want to design. <br />
+                        <input type="checkbox" name="building" value="bungalow" checked="checked" />Bungalow
+                        <input type="checkbox" name="building" value="duplex" />Duplex.
                     </p>
-                    <p>password:
-                        <input type="password" name="password" required="required">
-                    </p>
-                    <p>gender:
-                        <input type="radio" name="gender" value="male" />male
-                        <input type="radio" name="gender" value="female" />female
-                    </p>
-                    What type of building do you want to design. <br />
-                    <input type="checkbox" name="building" value="bungalow" checked="checked" />Bungalow <br />
-                    <input type="checkbox" name="building" value="duplex" />Duplex.
                 </fieldset>
             </form>
         </p>
