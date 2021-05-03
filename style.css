@@ -52,6 +52,7 @@ table,th,td{
     width: 120px;
     float: left;
     margin-top: -15px;
+    
 }
 
 #main-heading .heading{
@@ -71,12 +72,13 @@ table,th,td{
 }
 
 #main-heading .top-sidebar li{
-    display: inline;
-    padding: 80px 20px 0px 20px;
+    list-style: none;
+    margin-top: 80px;
+    padding: 0 20px 0px 20px;
     float: left;
     text-transform: capitalize;
     font-size: 18px;
-    /*border-right: 1px solid turquoise;*/
+    border-right: 1px solid turquoise;
 }
 
 /*To set the color of the current page on the page link.*/
@@ -97,8 +99,7 @@ table,th,td{
 
 /*Content */
 #display-body{
-    width: 98%;
-    margin: auto;
+    margin-top: 150px;
 }
 
 #display-body .body-sidebar{
@@ -107,6 +108,7 @@ table,th,td{
     background: grey;
     box-sizing: border-box;
     padding: 2px;
+    position: static;
 }
 
 #display-body .body{
